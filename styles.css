@@ -81,7 +81,10 @@ button {
 
 .modal{
     width:20%;
-    margin:15% auto;
+    position:fixed;
+    top:15%;
+    left:50%;
+    transform:translate(-50%,0);
     background-color: white;
     padding:20px;
     display:flex;
